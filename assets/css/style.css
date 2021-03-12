@@ -1,4 +1,9 @@
 /*index*/
+html, body{
+    margin:0;
+    padding:0;
+    height: 100%;
+}
 
 .center {
     text-align: center;
@@ -9,6 +14,7 @@
     flex-flow: row;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
 
 .video {
@@ -23,6 +29,13 @@
     justify-content: center;
 }
 
+#menu {
+    background-color: #264653;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
 #menu li {
     display: inline;
     padding: 30px;  
@@ -30,16 +43,28 @@
 
 #menu li a {
     text-decoration: none; 
-    color: black;
-    font-size: 20px;
+    color: white;
+    font-size: 25px;
 }
 
 #menu li a:hover {
-    color: darkblue;
+    color: #a8dadc;
 }
 
 .tamanho {
     width: 40px;
     height: 40px;
     padding: 3px;
+}
+
+.endereco {
+    margin-left: 50px;
+}
+
+button {
+    background-color:#264653;
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
 }
